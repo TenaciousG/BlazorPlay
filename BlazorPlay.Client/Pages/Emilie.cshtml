@@ -1,0 +1,41 @@
+@page "/emilie"
+
+<h1>age test</h1>
+How old are you?
+
+<input bind="@age"/>
+<button onclick="@PrintText">ok</button>
+
+<h2>@answer </h2>
+
+
+
+@functions
+{
+    string age;
+    string answer;
+
+    void PrintText()
+    {
+            if (age == "5")
+            {
+                answer = "I think you are Henrik Aiden";
+                
+                return;
+            }
+            if (age == "8")
+            {
+                answer = "I think you are Emilie Jean";
+                return;
+            }
+            if (age== "35")
+            {
+                answer = "I think you are Sarah Evens";
+                return;
+            }
+            else
+            {
+                answer = "Wow! You are old!!!!";
+            }
+    }
+}

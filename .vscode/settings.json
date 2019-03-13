@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/04d9e855-3152-4444-bfda-c2aa81b5749e/resourceGroups/appsvc_rg_windows_centralus/providers/Microsoft.Web/sites/BlazorPlaying",
+    "appService.deploySubpath": "BlazorPlay.Server/bin/Release/netcoreapp3.0/publish"
+}
